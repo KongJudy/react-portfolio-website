@@ -2,7 +2,7 @@ import { Container } from 'reactstrap';
 
 const About = () => {
   return (
-    <Container>
+    <Container id='About'>
       <h1>About Section</h1>
     </Container>
   );

@@ -1,42 +1,23 @@
-header {
-  height: 10vh;
-  line-height: 10vh;
-  background-color: #18094d;
+.header-container {
 }
 
-a {
-  text-decoration: none;
-  color: #0d1363;
+.links {
+  color: #1aca9e;
+  background-color: #e7e6e4;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
-li {
-  list-style: none;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-header ul li a {
-  transition: all 1s ease-out;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  background-color: #fff;
-  padding: 4px 10px;
-  border-radius: 3px;
-}
-
-header ul li a:hover {
-  color: #fff;
+.links:hover {
   background-color: #1aca9e;
+  color: #e7e6e4;
 }
 
-.link li a {
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.link li a:hover {
-  transform: scale(1.2);
+@media (max-width: 768px) {
+  .links {
+    color: initial;
+    background-color: initial;
+    margin-right: initial;
+    border-radius: initial;
+  }
 }
