@@ -1,0 +1,35 @@
+.about-container {
+  margin-top: 100px;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.certs-name {
+  color: #fff;
+}
+
+.swiper-container {
+  margin-left: 80px;
+}
+
+.a-title,
+.a-aboutme {
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin-top: 300px;
+  }
+
+  .swiper-main {
+    flex-direction: column;
+  }
+
+  .swiper-container {
+    margin-left: 100px;
+  }
+}
