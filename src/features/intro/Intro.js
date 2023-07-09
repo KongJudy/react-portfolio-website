@@ -40,8 +40,10 @@ const Intro = () => {
           sm={12}
           className='d-flex justify-content-center align-items-center'
         >
-          <div className='circle-border'>
-            <img src={selfPhoto} alt='self' className='self-img' />
+          <div className='self-container'>
+            <div className='circle-border'>
+              <img src={selfPhoto} alt='self' className='self-img' />
+            </div>
           </div>
         </Col>
       </Row>

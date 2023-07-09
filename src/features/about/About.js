@@ -1,4 +1,4 @@
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -18,7 +18,7 @@ const About = () => {
             about me
           </h1>
           <div className='a-aboutme py-4'>
-            <p className='a-aboutme-para'>
+            <p className='a-aboutme-para justify-content-center'>
               I grew up in Elkins Park, PA, which is a suburb of Philadelphia.
               Currently, I reside in Willow Grove, PA. Initially, I pursued a
               degree in Graphic Design but eventually made the decision to
@@ -37,7 +37,7 @@ const About = () => {
       <Row>
         <div className='swiper-container'>
           <Swiper
-            spaceBetween={20}
+            spaceBetween={2}
             slidesPerView={1}
             breakpoints={{
               576: {
@@ -60,7 +60,7 @@ const About = () => {
               <SwiperSlide key={certs.id}>
                 <div>
                   <div className='certs-image-container'>
-                    <img src={certs.image} alt='certs' width={250} />
+                    <img src={certs.image} alt='certs' width={220} />
                   </div>
                   <div className='certs-name'>{certs.name}</div>
                 </div>

@@ -59,10 +59,10 @@
 }
 
 .circle-border {
-  width: 300px; /* Adjust the size as needed */
-  height: 300px; /* Adjust the size as needed */
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  border: 2px solid #1aca9e; /* Adjust the border color and thickness as needed */
+  border: 2px solid #1aca9e;
   overflow: hidden;
 }
 
@@ -73,8 +73,8 @@
 }
 
 @media (max-width: 768px) {
-  .intro-wrapper {
-    flex-direction: column-reverse;
+  .self-container {
+    margin: 50px;
   }
 
   .circle-border {

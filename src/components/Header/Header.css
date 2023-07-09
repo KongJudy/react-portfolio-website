@@ -1,11 +1,14 @@
-.links {
+.nav-links {
   color: #1aca9e;
-  background-color: #e7e6e4;
   margin-right: 20px;
   border-radius: 10px;
 }
 
-.links:hover {
+.nav-links:hover {
   background-color: #1aca9e;
-  color: #e7e6e4;
+  color: #e7e6e4 !important;
+}
+
+.links:active {
+  color: #000;
 }

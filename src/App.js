@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import Intro from './features/intro/Intro';
 import About from './features/about/About';
 import Portfolio from './features/portfolio/Portfolio';
-import Resume from './features/resume/Resume';
+import Contact from './features/contact/Contact';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Intro />
       <About />
       <Portfolio />
-      <Resume />
+      <Contact />
       <Footer />
     </div>
   );

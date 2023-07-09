@@ -5,24 +5,22 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <Navbar sticky='top' expand='lg' className='bg-body-tertiary'>
-      <Container className='header-container'>
+    <Navbar expand='lg' className='bg-light'>
+      <Container>
+        <Navbar.Brand href='#home'>Judy Kong's Portfolio Website</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
-            <Nav.Link className='links' href='#intro'>
+            <Nav.Link href='#intro' className='nav-links'>
               INTRO
             </Nav.Link>
-            <Nav.Link className='links' href='#about'>
+            <Nav.Link href='#about' className='nav-links'>
               ABOUT
             </Nav.Link>
-            <Nav.Link className='links' href='#portfolio'>
+            <Nav.Link href='#portfolio' className='nav-links'>
               PORTFOLIO
             </Nav.Link>
-            <Nav.Link className='links' href='#resume'>
-              RESUME
-            </Nav.Link>
-            <Nav.Link className='links' href='#contact'>
+            <Nav.Link href='#contact' className='nav-links'>
               CONTACT
             </Nav.Link>
           </Nav>
