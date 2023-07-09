@@ -39,15 +39,6 @@
   text-decoration: none;
 }
 
-.blog-images {
-  width: 20px;
-  height: 20px;
-}
-
-.mobile-images {
-  width: 20px;
-}
-
 @media (max-width: 768px) {
   .portfolio-container1 {
     margin-top: 400px;

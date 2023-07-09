@@ -1,12 +1,15 @@
-import { Container, Col, Row } from 'react-bootstrap';
-import selfPhoto from '../../app/assets/images/self/Self01.png';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './Intro.css';
+
+import selfPhoto from '../../app/assets/images/self/Self01.png';
 
 const Intro = () => {
   return (
-    <Container id='intro' className='intro-container'>
-      <Row className='intro-wrapper'>
-        <Col lg={6} sm={12}>
+    <Container id='intro'>
+      <Row className='mt-5'>
+        <Col sm={12} lg={6}>
           <div className='left-intro-container'>
             <h2 className='i-intro'>Hello, my name is</h2>
             <h1 className='i-name mt-4'>Judy Kong</h1>
@@ -35,12 +38,8 @@ const Intro = () => {
             </div>
           </div>
         </Col>
-        <Col
-          lg={6}
-          sm={12}
-          className='d-flex justify-content-center align-items-center'
-        >
-          <div className='self-container'>
+        <Col>
+          <div className='d-flex justify-content-center align-items-center'>
             <div className='circle-border'>
               <img src={selfPhoto} alt='self' className='self-img' />
             </div>
