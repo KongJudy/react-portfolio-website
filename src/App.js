@@ -6,6 +6,7 @@ import Intro from './features/intro/Intro';
 import About from './features/about/About';
 import Portfolio from './features/portfolio/Portfolio';
 import Contact from './features/contact/Contact';
+import Certs from './features/certs/Certs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Intro />
       <About />
+      <Certs />
       <Portfolio />
       <Contact />
       <Footer />

@@ -66,12 +66,3 @@
   height: 110%;
   object-fit: cover;
 }
-
-/* @media (max-width: 768px) {
-  .circle-border {
-    margin-top: 0.2rem;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 200px;
-  }
-} */

@@ -1,0 +1,11 @@
+.certs-card {
+  text-align: center;
+  width: 70%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .certs-card {
+    margin-right: 67px;
+  }
+}

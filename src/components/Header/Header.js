@@ -17,6 +17,9 @@ const Header = () => {
             <Nav.Link href='#about' className='nav-links'>
               ABOUT
             </Nav.Link>
+            <Nav.Link href='#certs' className='nav-links'>
+              CERTIFICATES
+            </Nav.Link>
             <Nav.Link href='#portfolio' className='nav-links'>
               PORTFOLIO
             </Nav.Link>
