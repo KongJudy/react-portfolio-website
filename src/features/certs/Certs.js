@@ -8,7 +8,7 @@ import './Certs.css';
 const Certs = () => {
   return (
     <Container id='certs'>
-      <Row>
+      <Row className='justify-content-center'>
         {CERTS.map((cert) => (
           <Col xs={12} sm={6} md={4} key={cert.id}>
             <Card className='certs-card ms-auto'>

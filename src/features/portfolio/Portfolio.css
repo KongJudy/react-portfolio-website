@@ -1,52 +1,5 @@
 .portfolio-container {
   margin-top: 200px;
-  height: 60vh;
   z-index: 1;
   margin-bottom: 200px;
-}
-
-.blog-images {
-  margin: 20px;
-}
-
-.portfolio-container {
-  margin: 2rem;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1rem;
-}
-
-.portfolio-item {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  text-align: center;
-}
-
-.portfolio-details {
-  margin-top: 0.5rem;
-}
-
-.portfolio-title {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.portfolio-link {
-  color: #007bff;
-  text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .portfolio-container1 {
-    margin-top: 400px;
-  }
-}
-
-@media (max-width: 576) {
-  .portfolio-container2 {
-    margin-top: 600px;
-  }
 }
